@@ -7,8 +7,19 @@ public class replitCatDog {
         Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
 
-        for (int i = 0; i < str.length(); i++) {
+        int cat=0;
+        int dog=0;
+        for (int i = 0; i < str.length()-2; i++) {
+            String part=str.substring(i,i+3);
+            if(part.equals("cat")){
+                cat++;
+            }else if (part.equals("dog")){
+                dog++;
+            }
+
+
 
         }
+        System.out.println(cat==dog);
     }
 }
