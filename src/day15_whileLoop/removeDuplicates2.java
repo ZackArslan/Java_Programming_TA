@@ -43,7 +43,7 @@ public class removeDuplicates2 {
         //those are 3 different solutions for finding all even numbers 50-100
         //first one if i%2==0 then print i+" "
         //second one if i%2!= (if its odd number) then continue (skip)
-        //third one chance the last variable ex: i+=2 then print i+" " only
+        //third one change the last variable ex: i+=2 then print i+" " only
 
 
 
